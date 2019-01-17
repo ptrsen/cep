@@ -50,16 +50,12 @@ create schema Event as (
 );
 
 
-
-
 @Name('Rule_Class1')
 @Description('test rule1')
 @Subscriber('com.csp.cep.publisher.Subscriptor')
 SELECT * FROM Event(
                      A24>0.5 AND A38>0.12
                    );
-
-
 
 
 @Name('Rule_Class2')
