@@ -19,8 +19,8 @@ public class Subscriptor {
     */
 
     public void update(Map row) {
-        //log.info(  row.toString()  );
 
+        log.info(  row.toString()  );
      // log.info( row.get("Type").toString()  );
 
     }
